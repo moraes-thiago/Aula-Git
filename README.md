@@ -4,7 +4,7 @@
 
 ### Adicionar Arquivos no Repositório
 - `git add` // Adiciona o arquivo
-- `git commit` // Põem o marco dele, um nome (Ex.: git commit -m "adicionado home page")
+- `git commit` // Põem o marco dele, um nome (Ex.: git commit -m (ou -am) "adicionado home page")
 
 ### Mostrar Atualizações
 - `git log` // Mostra todas as atualizações e seu número do commit
@@ -23,3 +23,11 @@
 
 ### Colocar a nova funcionalidade no projeto em produção
 - `git merge` // Coloca as novas funcionalidades no projeto (Ex.: git merge feature/cart)
+
+### Projeto com Time
+- `git clone` // Clona projetos (Ex.: git clone "projetoteste.git")
+
+- `git pull` // Puxar da nuvem pro local
+
+### Voltar na linha do tempo
+- `git checkout` // Volta em certa atualização (Ex.: git checkout [commit] -- [arquivo] )
